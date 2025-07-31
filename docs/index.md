@@ -1,6 +1,6 @@
 # Welcome to WINGMAN Documentation
 
-![WINGMAN Logo](assets/images/wingman-logo.png)
+![WINGMAN Logo](assets/images/wingman-logo.svg)
 
 **WINGMAN** (Web-based INtelligent Governance MANagement) is a comprehensive security context platform designed to help organizations manage their security posture, compliance, and risk management processes efficiently.
 

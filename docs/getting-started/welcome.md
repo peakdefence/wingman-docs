@@ -59,4 +59,4 @@ Ready to begin? Check out our [Quick Start Guide](quick-start.md) to get WINGMAN
 
 - [Quick Start Guide](quick-start.md)
 - [WINGMAN Overview](overview.md)
-- [Core Concepts](../../core-concepts/graph-database.md)
+- [Core Concepts](../core-concepts/graph-database.md)

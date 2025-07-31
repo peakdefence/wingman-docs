@@ -63,8 +63,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -92,7 +92,14 @@ plugins:
   - git-revision-date-localized:
       type: timeago
   - macros:
-      module_name: docs/macros.py
+      include_dir: docs/
+      include_yaml: 
+        - '**/*.yaml'
+        - '**/*.yml'
+      j2_block_start_string: '{%'
+      j2_block_end_string: '%}'
+      j2_variable_start_string: '{{'
+      j2_variable_end_string: '}}'
   - minify:
       minify_html: true
       minify_js: true
@@ -111,6 +118,7 @@ nav:
     - Node Relationships: core-concepts/relationships.md
   - Setting Up:
     - Initial Data Import: setup/data-import.md
+    - Data Model: setup/data-model.md
     - Node Configuration: setup/node-configuration.md
     - Asset Registry: setup/asset-registry.md
     - Requirements Management: setup/requirements.md
@@ -130,12 +138,15 @@ nav:
     - Communication Integrations: integrations/communication.md
     - Node Integrations: integrations/nodes.md
     - Data Synchronization: integrations/sync.md
+    - Jira Integration: integrations/jira.md
   - Use Cases:
     - Asset Registry: use-cases/asset-registry.md
     - Risk Management: use-cases/risk-management.md
     - Vulnerability Management: use-cases/vulnerability-management.md
-    - Incident Management: use-cases/incident-management.md
+    - Incident Response: use-cases/incident-response.md
     - Compliance and Audit: use-cases/compliance-audit.md
+  - Advanced Topics:
+    - Advanced Queries: usage/advanced-queries.md
   - Glossary: glossary.md
 
 # Extra
