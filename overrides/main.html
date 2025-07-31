@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{ 'assets/images/favicon.ico' | url }}">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ config.site_description }}">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ config.site_description }}">
+  
+  <!-- Additional meta tags -->
+  <meta name="author" content="{{ config.site_author }}">
+  <meta name="theme-color" content="#3f51b5">
+  
+  <!-- Additional styles -->
+  <style>
+    /* Custom styles for abbreviations */
+    abbr[title] {
+      cursor: help;
+      border-bottom: 1px dotted var(--md-typeset-a-color);
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    
+    abbr[title]:hover {
+      color: var(--md-accent-fg-color);
+      border-bottom-color: var(--md-accent-fg-color);
+    }
+    
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: var(--md-default-fg-color--light);
+      border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--md-accent-fg-color);
+    }
+    
+    /* Print styles */
+    @media print {
+      .md-sidebar, .md-footer-meta, .md-header {
+        display: none !important;
+      }
+      
+      .md-content {
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Ensure links are visible in print */
+      a {
+        color: #000;
+        text-decoration: underline;
+      }
+      
+      /* Hide edit buttons in print */
+      .md-content__button {
+        display: none;
+      }
+    }
+  </style>
+{% endblock %}
+
+{% block announce %}
+  <!-- Announcement bar content -->
+  <div class="announcement">
+    <span class="twemoji">
+      {% include ".icons/material/bullhorn.svg" %}
+    </span>
+    <strong>New in WINGMAN 1.2:</strong> Enhanced reporting and dashboard features. 
+    <a href="/whats-new/" class="announcement-link">Learn more →</a>
+  </div>
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  
+  <!-- Custom footer content -->
+  <div class="md-footer-meta md-typeset" style="background-color: var(--md-footer-bg-color--dark);">
+    <div class="md-footer-meta__inner md-grid" style="justify-content: space-between;">
+      <div class="md-footer-copyright">
+        {% if config.copyright %}
+          <div class="md-footer-copyright__highlight">
+            {{ config.copyright }}
+          </div>
+        {% endif %}
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+      <!-- Social links -->
+      <div class="md-footer-social">
+        <a href="https://github.com/PeakDefence/wingman-docs" class="md-footer-social__link" title="GitHub">
+          <span class="twemoji">
+            {% include ".icons/fontawesome/brands/github.svg" %}
+          </span>
+        </a>
+        <a href="https://twitter.com/PeakDefence" class="md-footer-social__link" title="Twitter">
+          <span class="twemoji">
+            {% include ".icons/fontawesome/brands/twitter.svg" %}
+          </span>
+        </a>
+        <a href="https://www.linkedin.com/company/peakdefence" class="md-footer-social__link" title="LinkedIn">
+          <span class="twemoji">
+            {% include ".icons/fontawesome/brands/linkedin.svg" %}
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Custom scripts -->
+  <script>
+    // Add custom JavaScript here if needed
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add custom JavaScript here
+    });
+  </script>
+{% endblock %}

@@ -1,0 +1,179 @@
+# Project information
+site_name: WINGMAN Documentation
+site_description: Comprehensive documentation for WINGMAN - Your Security Context Platform
+site_author: PeakDefence
+site_url: https://docs.peakdefence.com
+
+# Repository
+repo_name: PeakDefence/wingman-docs
+repo_url: https://github.com/PeakDefence/wingman-docs
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 PeakDefence
+
+# Theme
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.annotate
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  icon:
+    logo: material/shield-account
+    repo: fontawesome/brands/github
+  favicon: assets/images/favicon.ico
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: timeago
+  - macros:
+      module_name: docs/macros.py
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Welcome: getting-started/welcome.md
+    - Quick Start Guide: getting-started/quick-start.md
+    - WINGMAN Overview: getting-started/overview.md
+  - Core Concepts:
+    - Graph Database Model: core-concepts/graph-database.md
+    - Node Types: core-concepts/node-types.md
+    - Node Relationships: core-concepts/relationships.md
+  - Setting Up:
+    - Initial Data Import: setup/data-import.md
+    - Node Configuration: setup/node-configuration.md
+    - Asset Registry: setup/asset-registry.md
+    - Requirements Management: setup/requirements.md
+  - Using WINGMAN:
+    - User Interface: usage/ui-guide.md
+    - Chat Functionality: usage/chat.md
+    - MCP Connector: usage/mcp-connector.md
+    - Node Management: usage/node-management.md
+    - Relationship Management: usage/relationship-management.md
+  - Flows:
+    - Understanding Flows: flows/understanding-flows.md
+    - Standard Flow Types: flows/standard-flows.md
+    - Custom Flows: flows/custom-flows.md
+    - Flow Execution: flows/execution.md
+  - Integration Management:
+    - Integration Types: integrations/overview.md
+    - Communication Integrations: integrations/communication.md
+    - Node Integrations: integrations/nodes.md
+    - Data Synchronization: integrations/sync.md
+  - Use Cases:
+    - Asset Registry: use-cases/asset-registry.md
+    - Risk Management: use-cases/risk-management.md
+    - Vulnerability Management: use-cases/vulnerability-management.md
+    - Incident Management: use-cases/incident-management.md
+    - Compliance and Audit: use-cases/compliance-audit.md
+  - Glossary: glossary.md
+
+# Extra
+extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PeakDefence/wingman-docs
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/PeakDefence
+
+# Build
+strict: true
+use_directory_urls: true
+
+# Customization
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# Exclude files
+exclude_docs: |
+  /.*
+  /README.md
+  /LICENSE
+  /mkdocs.yml
+  /requirements*.txt
+  /overrides/
+  /docs_src/
+  /site/
+  /.github/
+  /.gitignore
+  /.git/
+  /venv/
+  /env/
+  /.venv/
+  /node_modules/
