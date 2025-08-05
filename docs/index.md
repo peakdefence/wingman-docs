@@ -1,8 +1,8 @@
 # Welcome to WINGMAN Documentation
 
-![WINGMAN Logo](assets/images/wingman-logo.svg)
+![WINGMAN Logo](assets/images/wingman-look-at-mcp-graph.png)
 
-**WINGMAN** (Web-based INtelligent Governance MANagement) is a comprehensive security context platform designed to help organizations manage their security posture, compliance, and risk management processes efficiently.
+**Peak Defence WINGMAN** is a comprehensive virtual security office assistant which has been designed to help organizations manage their security posture, compliance, and risk management processes efficiently.
 
 ## Getting Started
 
@@ -21,13 +21,12 @@
 ## Quick Links
 
 - [Glossary](glossary.md) - Common terms and abbreviations used in WINGMAN
-- [API Reference](https://api.wingman.peakdefence.com) - Technical API documentation
-- [Support](https://support.peakdefence.com) - Get help from our support team
+- [API Reference](https://pd-dev.wingman.peakdefence.com/backend-api/v1/docs) - Technical API documentation
+- [Support](mailto:support@peakdefence.com) - Get help from our support team
 
 ## Latest Updates
 
-- **v1.2.0** - Added new integration capabilities with SIEM tools
-- **v1.1.0** - Enhanced reporting and dashboard features
+- **v1.1.0** - MCP connection to WINGMAN context and *Flows* added
 - **v1.0.0** - Initial release of WINGMAN
 
 ## Need Help?

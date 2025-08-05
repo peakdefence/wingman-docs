@@ -4,25 +4,18 @@ This guide will help you get started with WINGMAN quickly. Follow these steps to
 
 ## Prerequisites
 
-Before you begin, ensure you have:
-
-- A server meeting the [system requirements](#system-requirements)
-- Administrator access to the server
+To use WINGMAN as a user you only need:
 - A modern web browser (Chrome, Firefox, Safari, or Edge)
-- Required ports open in your firewall
+- Required ports open in your firewall to be able to access WINGMAN
+- WINGMAN account created for your organization
+- Optionally if you want to use WINGMAN with the MCP connection, you would need your preferred LLM chat platform to support MCP connection to WINGMAN server and MCP enabled for your WINGMAN account
 
-## System Requirements
+To be able to administer backofice of WINGMAN you need:
+- Account for your company WINGMAN back off administration
+- A computer with Docker installed which allows deployment of WINGMAN backoffice Docker
 
-### Server Requirements
+More details about administrator access to WINGMAN backoffice can be found under [Setting Up WINGMAN](../setup/setup-overview.md).
 
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| CPU | 4 cores | 8+ cores |
-| RAM | 8GB | 16GB+ |
-| Storage | 50GB | 100GB+ SSD |
-| OS | Ubuntu 20.04 LTS | Ubuntu 22.04 LTS |
-| Database | PostgreSQL 13 | PostgreSQL 14+ |
-| Web Server | Nginx 1.18+ | Nginx 1.22+ |
 
 ### Browser Requirements
 
@@ -31,116 +24,23 @@ Before you begin, ensure you have:
 - Apple Safari (latest 2 versions)
 - Microsoft Edge (latest 2 versions)
 
-## Installation
+### Authentication methods
 
-### 1. Download WINGMAN
+One should choose the authentication method to be used for WINGMAN. Our currently supported authentication methods are:
+- WINGMAN built in authentication
+- SSO (Single Sign-On) authentication with Google 
+- SSO (Single Sign-On) authentication with Azure AD
+- Custom SSO options with OpenID Connect
 
+More information on [Authentication](../integrations/authentication.md)
+
+## Installation of WINGMAN backoffice
+
+### 1. Download WINGMAN backoffice docker
+
+(TBD)
 Download the latest WINGMAN package from our [downloads page](https://wingman.peakdefence.com/downloads).
 
-```bash
-wget https://wingman.peakdefence.com/downloads/wingman-latest.tar.gz
-tar -xzvf wingman-latest.tar.gz
-cd wingman
-```
-
-### 2. Install Dependencies
-
-Install the required system dependencies:
-
-```bash
-# For Ubuntu/Debian
-sudo apt-get update
-sudo apt-get install -y python3-pip python3-venv nginx postgresql postgresql-contrib
-
-# For RHEL/CentOS
-sudo yum install -y python3-pip python3-venv nginx postgresql postgresql-server
-```
-
-### 3. Set Up Virtual Environment
-
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### 4. Configure Environment
-
-Copy the example environment file and update it with your settings:
-
-```bash
-cp .env.example .env
-nano .env  # Edit the configuration
-```
-
-### 5. Initialize Database
-
-```bash
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py loaddata initial_data.json
-```
-
-### 6. Start the Development Server
-
-```bash
-python manage.py runserver
-```
-
-Visit `http://localhost:8000` in your web browser to access WINGMAN.
-
-## Initial Configuration
-
-### 1. Log In
-
-1. Open your web browser and navigate to your WINGMAN instance
-2. Log in with the superuser credentials you created
-
-### 2. Configure Organization
-
-1. Navigate to **Admin > Organizations**
-2. Click **Add Organization**
-3. Enter your organization details
-4. Save the organization
-
-### 3. Set Up Users
-
-1. Navigate to **Admin > Users**
-2. Click **Add User**
-3. Fill in user details and assign roles
-4. Send invitation to the user's email
-
-### 4. Import Initial Data
-
-1. Navigate to **Data > Import**
-2. Select the type of data to import (Assets, Controls, etc.)
-3. Upload your CSV file or use the template
-4. Map the fields and complete the import
-
-## Next Steps
-
-- [Explore the User Interface](../usage/ui-guide.md)
-- [Learn about Core Concepts](../core-concepts/graph-database.md)
-- [Set Up Integrations](../integrations/overview.md)
-
-## Troubleshooting
-
-### Common Issues
-
-**Issue**: Database connection failed  
-**Solution**: Verify your database settings in `.env` and ensure the database server is running
-
-**Issue**: Static files not loading  
-**Solution**: Run `python manage.py collectstatic` and ensure your web server is configured correctly
-
-**Issue**: Email not sending  
-**Solution**: Check your email settings in `.env` and verify your SMTP server configuration
-
-## Getting Help
-
-If you encounter any issues during installation or setup:
 
 1. Check the [Troubleshooting](#troubleshooting) section above
-2. Search our [Knowledge Base](https://support.peakdefence.com)
-3. Contact our [Support Team](mailto:support@peakdefence.com)
+2. Contact our [Support Team](mailto:support@peakdefence.com)

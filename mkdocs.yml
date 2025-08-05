@@ -28,22 +28,22 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: deep-purple
+      accent: deep-purple
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: deep-purple
+      accent: deep-purple
       toggle:
         icon: material/weather-night
         name: Switch to light mode
   icon:
     logo: material/shield-account
     repo: fontawesome/brands/github
-  favicon: assets/images/favicon.ico
+  favicon: assets/images/favicon.png
   font:
     text: Roboto
     code: Roboto Mono
@@ -104,6 +104,8 @@ plugins:
       minify_html: true
       minify_js: true
       minify_css: true
+  - glossary:
+      file: glossary.md
 
 # Navigation
 nav:
@@ -116,17 +118,15 @@ nav:
     - Graph Database Model: core-concepts/graph-database.md
     - Node Types: core-concepts/node-types.md
     - Node Relationships: core-concepts/relationships.md
-  - Setting Up:
-    - Initial Data Import: setup/data-import.md
+  - Setting Up WINGMAN:    
     - Data Model: setup/data-model.md
-    - Node Configuration: setup/node-configuration.md
-    - Asset Registry: setup/asset-registry.md
-    - Requirements Management: setup/requirements.md
+    - Initial Data Import: setup/data-import.md
+    - Node Customization: setup/node-configuration.md    
   - Using WINGMAN:
     - User Interface: usage/ui-guide.md
-    - Chat Functionality: usage/chat.md
-    - MCP Connector: usage/mcp-connector.md
+    - Chat Functionality: usage/chat.md    
     - Node Management: usage/node-management.md
+    - Asset Registry: setup/asset-registry.md
     - Relationship Management: usage/relationship-management.md
   - Flows:
     - Understanding Flows: flows/understanding-flows.md
@@ -136,17 +136,17 @@ nav:
   - Integration Management:
     - Integration Types: integrations/overview.md
     - Communication Integrations: integrations/communication.md
-    - Node Integrations: integrations/nodes.md
-    - Data Synchronization: integrations/sync.md
+    - Pen-test tools Integration: integrations/pen-test-tools.md    
+    - MCP Connector: integrations/mcp-connector.md
     - Jira Integration: integrations/jira.md
   - Use Cases:
     - Asset Registry: use-cases/asset-registry.md
+    - Policy & Procedure Management: use-cases/policy-procedure-management.md
+    - Requirements documentation: use-cases/requirements-documentation.md
     - Risk Management: use-cases/risk-management.md
     - Vulnerability Management: use-cases/vulnerability-management.md
     - Incident Response: use-cases/incident-response.md
     - Compliance and Audit: use-cases/compliance-audit.md
-  - Advanced Topics:
-    - Advanced Queries: usage/advanced-queries.md
   - Glossary: glossary.md
 
 # Extra

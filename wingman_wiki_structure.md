@@ -303,7 +303,7 @@
 
 ## 13. Advanced Topics
 ### 13.1 API Documentation
-- REST API Reference
+- [REST API Reference](https://pd-dev.wingman.peakdefence.com/backend-api/v1/docs)
 - Authentication Methods
 - Rate Limiting
 - Code Examples

@@ -7,42 +7,41 @@ WINGMAN is designed to integrate seamlessly with your existing security tools an
 ### Security Tools
 
 - **Vulnerability Scanners**
-  - Nessus
-  - PenTest Tools
+  - *Nessus* (Planned)
+  - PenTest Tools (DONE)
 
 - **SIEM Solutions**
-  - Splunk
-  - IBM QRadar
-  - LogRhythm
-  - Elastic Stack
-
+  - *Elastic Stack* (Planned)
+  - *Splunk* (Planned)
+  - *LogRhythm* (Planned)
+  
 - **Ticketing Systems**
-  - Jira
-  - Mattermost
-  - ServiceNow
-  - Zendesk
-  - Freshservice
+  - Jira (In progress)
+  - Mattermost (Planned)
+  - ServiceNow (Planned)
+  - Zendesk (Planned)
+  - Freshservice (Planned)
+  - Ivanti ITSM (Planned)
 
 - **Cloud Providers**
-  - AWS Security Hub
-  - Microsoft Azure Security Center
-  - Google Cloud Security Command Center
-  - Oracle Cloud Infrastructure
+  - AWS Security Hub (Planned)
+  - Microsoft Azure Security Center (Planned)
+  - Google Cloud Security Command Center (Planned)
+
 
 ### Data Sources
 
 - **Threat Intelligence Feeds**
-  - MITRE ATT&CK
-  - STIX/TAXII
-  - MISP
-  - VirusTotal
+  - MITRE ATT&CK (Planned)
+  - MISP (Planned)
+  - VirusTotal (Planned)
 
-- **Compliance Frameworks**
-  - NIST CSF
-  - ISO 27001
-  - CIS Controls
-  - PCI DSS
-  - HIPAA
+- **Compliance Frameworks** as requirements sources
+  - NIST CSF (DONE - importable)
+  - ISO 27001 (DONE - importable)
+  - CIS Controls (DONE - importable)
+  - PCI DSS (DONE - importable)
+  - HIPAA (DONE - importable)
 
 ## Integration Architecture
 
@@ -50,7 +49,7 @@ WINGMAN uses a flexible integration architecture that supports:
 
 1. **API-based Integrations**
    - REST APIs
-   - GraphQL
+   - MCP (Model Context Protocol)
    - Webhooks
 
 2. **File-based Integrations**
@@ -66,71 +65,19 @@ WINGMAN uses a flexible integration architecture that supports:
 WINGMAN supports various authentication methods for integrations:
 
 - API Keys
-- OAuth 2.0
+- OAuth 2.0 / OpenID Connect
 - Service Accounts
-- Certificate-based authentication
-- IP-based restrictions
+
 
 ## Configuration
 
 ### Basic Integration Setup
 
-1. Navigate to **Settings > Integrations**
-2. Select the integration type
-3. Enter required credentials and parameters
-4. Test the connection
-5. Save and enable the integration
+Done by Peak Defence team as part of deployment configuration for a customer.
 
-### Advanced Configuration
-
-```yaml
-integrations:
-  - name: "Nessus"
-    type: "vulnerability_scanner"
-    enabled: true
-    config:
-      url: "https://nessus.example.com"
-      access_key: "${NESSUS_ACCESS_KEY}"
-      secret_key: "${NESSUS_SECRET_KEY}"
-      scan_frequency: "daily"
-      severity_threshold: "medium"
-```
-
-## Monitoring and Logging
-
-- Integration status dashboard
-- Detailed audit logs
-- Alerting for failed integrations
-- Performance metrics
-
-## Best Practices
-
-1. **Principle of Least Privilege**: Only grant necessary permissions
-2. **Secure Credential Storage**: Use environment variables or secrets management
-3. **Regular Audits**: Review integration access and usage
-4. **Error Handling**: Configure appropriate retry and alerting mechanisms
-5. **Documentation**: Maintain up-to-date documentation for each integration
-
-## Troubleshooting
-
-Common issues and solutions:
-
-1. **Connection Failures**
-   - Verify network connectivity
-   - Check credentials and permissions
-   - Review firewall rules
-
-2. **Authentication Errors**
-   - Verify API keys or tokens
-   - Check token expiration
-   - Review account permissions
-
-3. **Data Sync Issues**
-   - Check rate limits
-   - Verify data formats
-   - Review API version compatibility
 
 ## Next Steps
 
 - [Jira Integration](jira.md)
+- [Pen-test tools integration](pen-test-tools.md)
 - [Communication Integrations](communication.md)

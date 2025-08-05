@@ -4,7 +4,7 @@ This guide provides an overview of the WINGMAN web interface and its key feature
 
 ## Dashboard
 
-The WINGMAN dashboard provides a comprehensive overview of your security posture:
+The WINGMAN dashboard (UPCOMING) provides a comprehensive overview of your security posture:
 
 ### Key Components
 

@@ -2,7 +2,7 @@
 
 ## Abbreviations
 
-*[WINGMAN]: Web-based INtelligent Governance MANagement
+*[WINGMAN]: AI support agent used in the Wingman
 *[MCP]: Master Control Program - The central integration hub for WINGMAN
 *[GRC]: Governance, Risk, and Compliance
 *[SIEM]: Security Information and Event Management
@@ -34,7 +34,8 @@
 *[Threat]: Any circumstance or event with the potential to cause harm to an asset
 *[Risk]: The potential for loss or damage when a threat exploits a vulnerability
 *[Compliance]: Conformity with established guidelines or specifications
-*[Audit]: A systematic examination of processes, controls, and documentation
+1. **Audit** : A systematic examination of processes, controls, and documentation
+1. **Flows** : Flow concept used in WINGMAN to describe AI supported automated data collection and suggestions created when new data is added to the system or existing data is modified. Usually requires a Human-in-the-Loop approval
 
 ## WINGMAN-Specific Terms
 
