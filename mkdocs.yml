@@ -119,13 +119,15 @@ nav:
     - Data Model: core-concepts/data-model.md
     - Node Types: core-concepts/node-types.md
     - Node Relationships: core-concepts/relationships.md
-  - Setting Up WINGMAN:        
+  - Setting Up WINGMAN:
+    - Basic configuration: setup/setup-overview.md
     - Initial Data Import: setup/data-import.md
     - Node Customization: setup/node-configuration.md    
+    - Company context (example): setup/company-context.md
   - Using WINGMAN:
     - User Interface: usage/ui-guide.md
     - Chat Functionality: usage/chat.md    
-    - Node Management: usage/node-management.md
+    - Node Management: usage/node-management.md    
     - Asset Registry: setup/asset-registry.md
     - Relationship Management: usage/relationship-management.md
   - Flows:
@@ -166,10 +168,10 @@ use_directory_urls: true
 
 # Customization
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 
 extra_javascript:
-  - javascripts/extra.js
+  - assets/javascripts/extra.js
 
 # Exclude files
 exclude_docs: |

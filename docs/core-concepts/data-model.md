@@ -4,6 +4,8 @@ This document outlines the core data model used by WINGMAN to represent security
 
 ## Core Concepts
 
+![Core data model WINGMAN](image.png)
+
 ### Nodes
 
 Nodes represent entities in the WINGMAN system. Each node has:
