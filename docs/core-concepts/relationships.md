@@ -199,4 +199,3 @@ graph TD
 
 - [Learn About Graph Database Concepts](./graph-database.md)
 - [Explore Node Types](./node-types.md)
-- [Discover Advanced Querying Techniques](../usage/advanced-queries.md)

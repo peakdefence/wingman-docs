@@ -116,10 +116,10 @@ nav:
     - WINGMAN Overview: getting-started/overview.md
   - Core Concepts:
     - Graph Database Model: core-concepts/graph-database.md
+    - Data Model: core-concepts/data-model.md
     - Node Types: core-concepts/node-types.md
     - Node Relationships: core-concepts/relationships.md
-  - Setting Up WINGMAN:    
-    - Data Model: setup/data-model.md
+  - Setting Up WINGMAN:        
     - Initial Data Import: setup/data-import.md
     - Node Customization: setup/node-configuration.md    
   - Using WINGMAN:

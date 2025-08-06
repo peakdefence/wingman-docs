@@ -230,7 +230,7 @@ Human Benefit: Always audit-ready with minimal manual preparation
 
 - [Learn about Node Types](./node-types.md)
 - [Understand Node Relationships](./relationships.md)
-- [Explore WINGMAN's Data Model](../setup/data-model.md)
+- [Explore WINGMAN's Data Model](../core-concepts/data-model.md)
 
 ## Conclusion
 

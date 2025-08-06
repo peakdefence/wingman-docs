@@ -158,6 +158,6 @@ WINGMAN allows you to extend the data model to fit your organization's needs:
 
 ## Next Steps
 
-- [Data Import](./data-import.md)
+- [Data Import](../setup/data-import.md)
 - [Core Concepts](../core-concepts/graph-database.md)
 - [Getting Started](../getting-started/quick-start.md)
