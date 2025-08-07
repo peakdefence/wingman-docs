@@ -5,7 +5,7 @@ This guide covers how to integrate WINGMAN with various communication platforms 
 ## Supported Platforms
 
 ### 1. Email
-- SMTP server configuration
+- SMTP server configuration (at the moment done by Peak Defence)
 - Notification rules
 
 ### 2. Slack (PLANNED)
@@ -31,11 +31,11 @@ Done by Peak Defence team as part of implementation
 
 ### Slack Setup
 
-*PLANNED*
+(TBD)
 
 ### Microsoft Teams Setup
 
-*PLANNED*
+(TBD)
 
 ### Webhooks Setup
 
@@ -44,5 +44,5 @@ Done by Peak Defence team as part of implementation
 ### Getting Help
 
 - Check the [documentation](https://docs.wingman.peakdefence.com)
-- Contact support
-- Review system logs
+- Contact support at support@peakdefence.com
+- Review system logs 
