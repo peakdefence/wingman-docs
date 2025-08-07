@@ -16,10 +16,6 @@ The chat interface provides a conversational way to interact with WINGMAN, allow
 
 ### Basic Commands
 
-- `help`: Show available commands
-- `find asset [name]`: Search for an asset
-- `show vulnerabilities [asset]`: Show vulnerabilities for an asset
-- `run report [type]`: Generate a report
 
 ## Advanced Usage
 
