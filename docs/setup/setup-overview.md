@@ -2,6 +2,8 @@
 
 This part of the guide focuses on how an organizational admin would set up your WINGMAN instance before users start to use it!
 
+Remember the overall process looks like this ![WINGMAN onboarding overview](../assets/images/general-onboarding.png)
+
 ## Creating project(s)
 Projects are used to allow work on multiple different types of nodes (assets, people, etc.) in a single context within organization. Some examples of projects could be:
 

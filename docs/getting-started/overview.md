@@ -57,7 +57,7 @@ graph TD
    - Authentication and authorization
 
 3. **Database**
-   - Neo4j graph database
+   - Neo4j graph database hosted in the cloud
    - Optimized for complex relationship queries
 
 4. **Task Queue**

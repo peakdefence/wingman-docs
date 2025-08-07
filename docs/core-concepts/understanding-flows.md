@@ -108,6 +108,3 @@ Results of the flow:
 
 ## Next Steps
 
-- [Standard Flows](standard-flows.md)
-- [Creating Custom Flows](custom-flows.md)
-- [Flow Execution](execution.md)

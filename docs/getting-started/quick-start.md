@@ -2,6 +2,10 @@
 
 This guide will help you get started with WINGMAN quickly. Follow these steps to set up and start using WINGMAN in your environment.
 
+General process follows this pattern:
+
+![General WINGMAN onboarding process](../assets/images/general-onboarding.png)
+
 ## Prerequisites
 
 To use WINGMAN as a user you only need:

@@ -2,7 +2,7 @@
 site_name: WINGMAN Documentation
 site_description: Comprehensive documentation for WINGMAN - Your Security Context Platform
 site_author: PeakDefence
-site_url: https://docs.peakdefence.com
+# site_url will be automatically set by GitHub Pages
 
 # Repository
 repo_name: PeakDefence/wingman-docs
@@ -119,6 +119,7 @@ nav:
     - Data Model: core-concepts/data-model.md
     - Node Types: core-concepts/node-types.md
     - Node Relationships: core-concepts/relationships.md
+    - Flows: core-concepts/understanding-flows.md
   - Setting Up WINGMAN:
     - Basic configuration: setup/setup-overview.md
     - Initial Data Import: setup/data-import.md
@@ -129,12 +130,7 @@ nav:
     - Chat Functionality: usage/chat.md    
     - Node Management: usage/node-management.md    
     - Asset Registry: setup/asset-registry.md
-    - Relationship Management: usage/relationship-management.md
-  - Flows:
-    - Understanding Flows: flows/understanding-flows.md
-    - Standard Flow Types: flows/standard-flows.md
-    - Custom Flows: flows/custom-flows.md
-    - Flow Execution: flows/execution.md
+    - Relationship Management: usage/relationship-management.md    
   - Integration Management:
     - Integration Types: integrations/overview.md
     - Communication Integrations: integrations/communication.md
