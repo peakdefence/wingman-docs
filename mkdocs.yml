@@ -129,7 +129,6 @@ nav:
     - User Interface: usage/ui-guide.md
     - Chat Functionality: usage/chat.md    
     - Node Management: usage/node-management.md    
-    - Asset Registry: setup/asset-registry.md
     - Relationship Management: usage/relationship-management.md    
   - Integration Management:
     - Integration Types: integrations/overview.md
