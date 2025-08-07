@@ -19,17 +19,12 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
-  build:
-    name: Build and Deploy
+  deploy:
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master' || github.event_name == 'workflow_dispatch'
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -50,14 +45,16 @@ jobs:
       - name: Build documentation
         run: mkdocs build --strict --verbose --site-dir ./site
         
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./site
-          
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: site
+          branch: ${{ env.DEPLOY_BRANCH }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          clean: true
+          clean-exclude: |
+            .git
+            .gitignore
+            .nojekyll
+          commit-message: ${{ env.COMMIT_MSG }}
+          force: true
