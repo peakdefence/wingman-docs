@@ -1,0 +1,125 @@
+/* Custom styles for WINGMAN Documentation */
+
+/* Abbreviations styling */
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted var(--md-typeset-a-color);
+  text-decoration: none;
+  position: relative;
+}
+
+/* Tooltip for abbreviations */
+abbr[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  padding: 0.5em 1em;
+  border-radius: 0.25rem;
+  font-size: 0.8em;
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10;
+  border: 1px solid var(--md-default-fg-color--light);
+}
+
+/* Node type badges */
+.node-badge {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+.node-badge.primary {
+  background-color: rgba(63, 81, 181, 0.1);
+  color: #3f51b5;
+}
+
+.node-badge.secondary {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #4caf50;
+}
+
+/* Custom admonitions */
+.md-typeset .admonition.warning {
+  border-left-color: #ff9100;
+}
+
+.md-typeset .admonition.warning > .admonition-title {
+  background-color: rgba(255, 145, 0, 0.1);
+  border-left-color: #ff9100;
+}
+
+/* Code blocks */
+.md-typeset pre > code {
+  border-radius: 8px;
+  padding: 1.2em;
+  line-height: 1.5;
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: rgba(0,0,0,0.03);
+  font-weight: 600;
+}
+
+/* Navigation */
+.md-nav__item .md-nav__link--active {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+/* Footer */
+.md-footer {
+  margin-top: 2em;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title[for=__drawer] {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--md-default-fg-color--light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--md-accent-fg-color);
+}
+
+/* Print styles */
+@media print {
+  .md-sidebar, .md-footer-meta {
+    display: none !important;
+  }
+  
+  .md-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
