@@ -1,16 +1,20 @@
 # Asset Registry Use Case
 
-This document outlines how to use WINGMAN as a comprehensive asset registry for your organization's IT infrastructure.
+This document outlines how to use WINGMAN as a comprehensive asset registry for your organization's Information Security Management.
 
 ## Overview
 
-WINGMAN's asset registry provides a centralized inventory of all IT assets, their relationships, and security postures.
+WINGMAN's asset registry's focus is on the Information Security Asset registry. This asset registry is not intended to be used as CMDB (Configuration Management Database) for your organization's IT infrastructure. The goal of WINGMAN Asset registry is to understand "what are the things we want to protect?"
+
 
 ## Key Features
 
 ### 1. Asset Discovery
 
 - **Automated Discovery**
+
+We at Peak Defence discourage just importing assets from automated discovery as this would not allow you to populate the asset registry properly and understand the actual relationships between assets. As such we recommend top-down approach to populating asset registry, where specific automations can be used to populate the asset registry with relevant assets under strict Human in the Loop approach
+
   - Network scanning
   - Cloud provider integration
   - Agent-based discovery
