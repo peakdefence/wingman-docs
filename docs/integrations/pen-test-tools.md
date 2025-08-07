@@ -74,6 +74,8 @@ WINGMAN's AI capabilities enhance the integration by providing:
 
 ## Example Workflow
 
+(TBD) The actual flow is configured for individual cusotmer instance.
+
 ### New Vulnerability Detection Flow
 
 When pentest-tools.com identifies a new vulnerability:
@@ -91,12 +93,13 @@ When pentest-tools.com identifies a new vulnerability:
 
 2. **Impact Analysis**
    - Links to related risk scenarios (e.g., "Web Application Compromise")
-   - Identifies affected assets and their business criticality
+   - Identifies affected assets and their business criticality, provides recommendation of internal CVSS scoring of the vulnerability identified and allows user to adjust the score.
+
    - Reviews existing security controls and their effectiveness
 
 3. **Action Generation**
    - Creates tasks in integrated task management system (e.g., Jira)
-   - Assigns appropriate priority and urgency
+   - Assigns appropriate priority and urgency (based on the vulnerability handling principles defined by specific organization)
    - Suggests remediation steps and timelines
    - Links to relevant security requirements or compliance obligations
 
@@ -126,11 +129,11 @@ The integration is configured through WINGMAN's backoffice application with the 
 #### Asset Mapping
 - Map pentest-tools.com asset categories to your organizational asset taxonomy
 - Define asset criticality mappings
-- Configure automatic asset discovery and registration
+- Configure automatic asset discovery and registration for new assets discovered by e.g. IP range scans (TBD)
 
 #### Vulnerability Scoring
 - Align pentest-tools.com severity ratings with organizational risk appetite
-- Configure custom scoring algorithms
+- Configure custom scoring algorithms (standard usage of CVSS based scoring, selecting relevant version is preferred)
 - Set up severity-based escalation rules
 
 #### Task Automation
