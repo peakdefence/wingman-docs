@@ -43,7 +43,7 @@ More information on [Authentication](../integrations/authentication.md)
 ### 1. Download WINGMAN backoffice docker
 
 (TBD)
-Download the latest WINGMAN package from our [downloads page](https://wingman.peakdefence.com/downloads).
+Download the latest WINGMAN Backoffice package from our GIT (provided by Peak Defence)
 
 
 1. Check the [Troubleshooting](#troubleshooting) section above
