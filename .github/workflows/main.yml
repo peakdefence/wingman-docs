@@ -1,0 +1,2 @@
+- name: Sync to GitLab
+  uses: kujov/gitlab-sync@2.1.0
