@@ -8,13 +8,11 @@ The chat interface provides a conversational way to interact with WINGMAN, allow
 
 ## Getting Started
 
-### Accessing the Chat
+### Accessing the Chat in WINGMAN interface
 
 1. Log in to the WINGMAN web interface
 2. Click on the chat icon in the bottom-right corner
 3. Start typing your query or command
-
-### Basic Commands
 
 
 ## Advanced Usage
@@ -26,34 +24,8 @@ Ask questions in plain English:
 - "What assets are missing critical patches?"
 - "Generate a compliance report for PCI DSS"
 
-### Slash Commands
-
-Use `/` to access quick actions:
-- `/new ticket`: Create a new support ticket
-- `/alert`: Configure alert settings
-- `/export`: Export current view
-
-### Message Formatting
-
-Use Markdown for rich text:
-- `**bold**` for important information
-- `_italic_` for emphasis
-- ```code``` for commands or output
-- [link text](url) for hyperlinks
 
 ## Integration with Other Features
-
-### Alerts and Notifications
-
-- Receive real-time alerts in chat
-- Acknowledge and respond to alerts
-- Escalate issues directly from chat
-
-### Collaboration
-
-- Share queries and results with team members
-- Comment on findings
-- Assign tasks through chat
 
 ## Best Practices
 
@@ -75,3 +47,13 @@ Use Markdown for rich text:
 - Type `help` for a list of commands
 - Visit the [documentation](https://docs.wingman.peakdefence.com)
 - Contact support through the help menu
+
+
+## MCP based chat interface
+
+WINGMAN supports ability to integrate the chat with any MCP supporting chat application whihc would allow the application to get access to the chat interface and a set of functions which would allow reading the contents from the WINGMAN as well as actively initiate actions available through MCP interface.
+
+Below is an example of using Claude MCP connection to WINGMAN (TBD)
+
+Please contact us to set up MCP instance for your deployment.
+More details on [MCP integration](../integrations/mcp-connector.md)

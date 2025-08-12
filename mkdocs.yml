@@ -115,6 +115,7 @@ nav:
     - Quick Start Guide: getting-started/quick-start.md
     - WINGMAN Overview: getting-started/overview.md
   - Core Concepts:
+    - Core concepts: core-concepts/core-concepts-wingman.md
     - Graph Database Model: core-concepts/graph-database.md
     - Data Model: core-concepts/data-model.md
     - Node Types: core-concepts/node-types.md
@@ -125,6 +126,7 @@ nav:
     - Initial Data Import: setup/data-import.md
     - Node Customization: setup/node-configuration.md    
     - Company context (example): setup/company-context.md
+    - Flow configuration: setup/flow-configuration.md
   - Using WINGMAN:
     - User Interface: usage/ui-guide.md
     - Chat Functionality: usage/chat.md    
