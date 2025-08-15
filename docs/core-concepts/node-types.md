@@ -9,6 +9,7 @@ WINGMAN's graph database is composed of various node types that represent differ
 **Purpose**: Represent compliance requirements, regulatory obligations, and internal security policies.
 
 **Common Properties**:
+
 - `name`: Short name of the requirement
 - `description`: Detailed description
 - `type`: [policy|regulatory|contractual|organizational]
@@ -35,6 +36,7 @@ WINGMAN's graph database is composed of various node types that represent differ
 **Purpose**: Represent security measures implemented to protect assets and meet requirements.
 
 **Common Properties**:
+
 - `name`: Name of the control
 - `description`: Detailed description
 - `type`: [preventive|detective|corrective|deterrent|compensating]
@@ -69,6 +71,7 @@ WINGMAN's graph database is composed of various node types that represent differ
 - Evidence files
 
 **Common Properties**:
+
 - `title`: Document title
 - `type`: Document type
 - `version`: Version number
@@ -82,6 +85,7 @@ WINGMAN's graph database is composed of various node types that represent differ
 **Purpose**: Represent potential threats to the organization.
 
 **Common Properties**:
+
 - `title`: Risk title
 - `description`: Detailed description
 - `likelihood`: [rare|unlikely|possible|likely|almost_certain]
@@ -102,6 +106,7 @@ WINGMAN's graph database is composed of various node types that represent differ
 - Applications (software, services)
 
 **Common Properties**:
+
 - `name`: Asset name
 - `type`: Asset type
 - `owner`: Asset owner
@@ -115,6 +120,7 @@ WINGMAN's graph database is composed of various node types that represent differ
 **Purpose**: Track work items and remediation activities.
 
 **Common Properties**:
+
 - `title`: Task title
 - `description`: Detailed description
 - `status`: [todo|in_progress|review|done]
@@ -130,6 +136,7 @@ WINGMAN's graph database is composed of various node types that represent differ
 **Purpose**: Track information requests from auditors or other stakeholders.
 
 **Common Properties**:
+
 - `question`: The question being asked
 - `status`: [open|pending_response|responded|closed]
 - `due_date`: Response deadline

@@ -121,6 +121,7 @@ nav:
     - Node Types: core-concepts/node-types.md
     - Node Relationships: core-concepts/relationships.md
     - Flows: core-concepts/understanding-flows.md
+    - Suggestions: core-concepts/suggestions.md
   - Setting Up WINGMAN:
     - Basic configuration: setup/setup-overview.md
     - Initial Data Import: setup/data-import.md
