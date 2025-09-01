@@ -66,20 +66,6 @@ WINGMAN includes chat functionality (available through web interface or MCP conn
 
 For teams preferring external AI assistants like Claude or ChatGPT, WINGMAN integrates through MCP (Model Context Protocol). This gives AI assistants access to the organization's actual security context, enabling relevant, situation-specific advice rather than generic recommendations.
 
-## What WINGMAN Is Not
-
-### Not a Compliance Theater Platform
-WINGMAN won't help create beautiful reports that satisfy auditors while actual security remains questionable. It focuses on genuinely improving security posture, which requires more effort but delivers actual results.
-
-### Not a Replacement for Security Teams
-The "human-in-the-loop" concept is fundamental to WINGMAN's design. It's built to make security professionals more effective, not redundant. The relationship is that of a brilliant assistant, not a replacement.
-
-### Not a SIEM or SOAR Solution
-WINGMAN doesn't monitor network traffic or automate incident response. Instead, it works with existing tools to help teams make better decisions about priorities and resource allocation.
-
-### Not Another Task Management System
-While WINGMAN tracks tasks and their relationships to other security items, it's not attempting to replace Jira or Asana. It integrates with existing task management tools.
-
 ## The Underlying Philosophy
 
 WINGMAN is built on the principle that effective security isn't about having the most expensive tools or comprehensive policies—it's about achieving balance.
