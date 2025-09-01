@@ -6,7 +6,7 @@ This document contains structured information security context for AI utilizatio
 ## Document structure
 The overview document consists of following items which have been pre-filled with instructions to be used in any LLM platform. 
 
-If you want to see some sample responses on behalf of Peak Defence to make it easier for you to fill in the information, you can use the [company-context-example.md](company-context-example) file.
+If you want to see some sample responses on behalf of Peak Defence to make it easier for you to fill in the information, you can use the [company-context-example.md](../company-context-example) file.
 
 We have also created a publicly available GPT in OpenAI where you can just provide the company name (or even better URL) and it would do the process for you: [https://chatgpt.com/g/g-68b5a0799768819194fd57cacafcbdd6-create-company-context-for-wingman](https://chatgpt.com/g/g-68b5a0799768819194fd57cacafcbdd6-create-company-context-for-wingman)
 
