@@ -7,14 +7,17 @@ This document contains structured information security context for AI utilizatio
 The overview document consists of following items which have been pre-filled with instructions to be used in any LLM platform. 
 
 If you want to see some sample responses on behalf of Peak Defence to make it easier for you to fill in the information, you can use the [company-context-example.md](company-context-example) file.
+
+We have also created a publicly available GPT in OpenAI where you can just provide the company name (or even better URL) and it would do the process for you: [https://chatgpt.com/g/g-68b5a0799768819194fd57cacafcbdd6-create-company-context-for-wingman](https://chatgpt.com/g/g-68b5a0799768819194fd57cacafcbdd6-create-company-context-for-wingman)
+
 # 1. Company information
 ## 1.1 Summary about the company
 ### 1.1.1 Executive summary
 
-> Provide information about the company here
+> Provide executive summary information about the company here
 
 ### 1.1.2 Main services provided
-This is very important and apart from service importance, should also indicate which data is considered sensitive and personal data. 
+>This is very important and apart from service importance, should also indicate which data is considered sensitive and personal data. 
 
 > Provide a list of services or products provided by the company focusing on the main ones
 
