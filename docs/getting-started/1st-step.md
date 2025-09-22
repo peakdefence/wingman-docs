@@ -2,6 +2,7 @@
 
 *Or: Teaching an AI About Your Organization Without Accidentally Admitting You Don't Know What Your Organization Actually Does*
 
+![1st step](Onboarding Step 1.png)
 ---
 
 ## The Uncomfortable Reality Check 🎯

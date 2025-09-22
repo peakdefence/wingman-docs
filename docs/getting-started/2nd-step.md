@@ -1,5 +1,7 @@
 Brilliant. Let's add that documentation matrix - because nothing says "fun Friday afternoon" quite like discovering you need 47 different policies you've never heard of. Let me revise the structure with this delightful addition:
 
+![2nd step](Onboarding Step 2.png)
+
 ## Revised Structure for Phase 2 Wiki Page
 
 ### Main Page: Documentation & Knowledge Base (Day 3-5)

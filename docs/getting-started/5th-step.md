@@ -1,0 +1,1 @@
+![5th step](Onboarding Step 5.png)

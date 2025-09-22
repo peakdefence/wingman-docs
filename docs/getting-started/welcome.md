@@ -160,6 +160,8 @@ To set proper expectations, it's important to understand what WINGMAN is not:
 
 Ready to begin? Move to the [1st step of our implementation guidance](1st-step.md)
 
+![Overview of Onboarding](Overview Onboarding.png)
+
 You can also check out [Quick Start Guide](quick-start.md) to get WINGMAN up and running in your environment.
 
 ## Next Steps

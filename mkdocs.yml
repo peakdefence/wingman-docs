@@ -100,6 +100,10 @@ plugins:
       j2_block_end_string: '%}'
       j2_variable_start_string: '{{'
       j2_variable_end_string: '}}'
+      # IMPORTANT: change Jinja comment delimiters to avoid conflict with Markdown heading IDs `{#...}`
+      # This allows using Markdown anchors like `### Title {#my-id}` without macros treating it as a Jinja comment
+      j2_comment_start_string: '<#'
+      j2_comment_end_string: '#>'
   - minify:
       minify_html: true
       minify_js: true
@@ -114,6 +118,9 @@ nav:
     - Welcome: getting-started/welcome.md
     - 1st step (Context creation): getting-started/1st-step.md
     - 2nd step (Documentation): getting-started/2nd-step.md
+    - 3rd step (Assets and Suppliers): getting-started/3rd-step.md
+    - 4th step (Requirements and Compliance): getting-started/4th-step.md
+    - 5th step (Risk management): getting-started/5th-step.md
     - Quick Start Guide: getting-started/quick-start.md
     - WINGMAN Technology Overview: getting-started/overview.md
     - Documentation reference: getting-started/master-list-of-documents.md
