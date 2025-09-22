@@ -17,9 +17,9 @@ Before you dive in, here's what you actually need versus what expensive consulta
 | Information Security Policy | **Mandatory** | **Mandatory** | **Mandatory** | **Implied** | The granddaddy of all policies. Must exist, must be comprehensive, probably gets read once a year during audits. |
 | Risk Management Policy | **Mandatory** (principles can be within Information Security Policy) | **Mandatory** (principles can be within Information Security Policy) | **Mandatory** | Optional (scope is on risks affecting data subjects) | How you pretend to quantify the unquantifiable. ISO wants methodology, SOC 2 wants consistency, DORA wants you to cry. |
 | Access Control Policy | **Mandatory** (principles can be within Information Security Policy)| **Mandatory** (principles can be within Information Security Policy)| **Mandatory** | **Mandatory** | Who gets the keys to the kingdom. Everyone agrees: document it or face doom. |
-| Data Protection/Privacy Policy | Optional* | Optional* | **Mandatory** | **Mandatory** | Optional* | *Optional until you handle personal data, then it's as mandatory as breathing. GDPR's favourite child. |
+| Data Protection/Privacy Policy | Optional* | Optional* | Optional* | **Mandatory** | Optional* | *Optional until you handle personal data, then it's as mandatory as breathing. GDPR's favourite child. |
 | Incident Response Policy | **IMPLIED** (principles can be within Information Security Policy, procedure is KEY) | **IMPLIED** (principles can be within Information Security Policy)| **Mandatory** | **Mandatory** | What to do when things go pear-shaped. NIS2 wants 24-hour reporting, GDPR wants 72 hours. Pick your panic speed. |
-| Business Continuity Policy | **Mandatory** | Optional | **Mandatory** | Optional | How to keep the lights on during apocalypse. DORA particularly enjoys this one for financial entities. |
+| Business Continuity Policy | **Mandatory** | Optional | **Mandatory** | Optional | How to keep the lights on during apocalypse. NIS 2 particularly enjoys this one for planning. |
 | Asset Management Policy | **IMPLIED** (principles can be within Information Security Policy, procedure is KEY) | Optional | **IMPLIED** (principles can be within Information Security Policy, procedure is KEY) | Optional | Knowing what you have so you can protect it. Revolutionary concept, apparently. |
 | Supplier Management Policy | **IMPLIED** (principles can be within Information Security Policy, procedure is KEY) | **IMPLIED** (principles can be within Information Security Policy, procedure is KEY) | **Mandatory** | **IMPLIED** in the context of knowing where you data subjects personal data is processed | Because your security is only as good as your weakest vendor (spoiler: it's always Dave from IT support). |
 | **PROCEDURES** |
@@ -36,9 +36,11 @@ Before you dive in, here's what you actually need versus what expensive consulta
 | Asset Inventory | **Mandatory** | Optional | **Mandatory** | Optional | List of everything you own and forgot about. |
 | Processing Activities Records | Optional | Optional | Optional | **Mandatory** | Optional | GDPR Article 30's gift to spreadsheet enthusiasts. |
 | Audit Logs | **Mandatory** | **Mandatory** | **Mandatory** | **Mandatory** | Evidence that things happened. Everyone wants these, nobody agrees on retention periods. |
+| ISMS Scope | **Mandatory** | **Mandatory** | **IMPLIED** | Optional | This is where you define what is needed. |
 | Statement of Applicability | **Mandatory** | Not Required | Not Required | Not Required | ISO's special requirement. 93 controls and why you're ignoring half of them. |
 
 **Legend:**
+
 - **Mandatory**: Required explicitly by the framework/regulation
 - **Optional**: Not explicitly required but strongly recommended (aka mandatory if auditor is grumpy)
 - **Not Required**: Framework doesn't care (but your lawyer might)
