@@ -18,6 +18,12 @@ This page provides a MkDocs-friendly version of the NIS 2 Directive with stable 
       <li id="art-1-2-c">rules and obligations on cybersecurity information sharing;</li>
       <li id="art-1-2-d">supervisory and enforcement obligations on Member States.</li>
     </ol>
+  </li>
+</ol>
+
+### Article 2 — Scope {#art-2}
+
+<ol>
   <li id="art-2-1">This Directive applies to public or private entities of a type referred to in Annex I or II which qualify as medium-sized enterprises under Article 2 of the Annex to Recommendation 2003/361/EC, or exceed the ceilings for medium-sized enterprises provided for in paragraph 1 of that Article, and which provide their services or carry out their activities within the Union.</li>
   <li id="art-2-1a-note">Article 3(4) of the Annex to that Recommendation shall not apply for the purposes of this Directive.</li>
   <li id="art-2-2">
@@ -64,7 +70,6 @@ This page provides a MkDocs-friendly version of the NIS 2 Directive with stable 
   <li id="art-2-14">Entities, the competent authorities, the single points of contact and the CSIRTs shall process personal data to the extent necessary for the purposes of this Directive and in accordance with Regulation (EU) 2016/679, in particular such processing shall rely on Article 6 thereof. The processing of personal data pursuant to this Directive by providers of public electronic communications networks or providers of publicly available electronic communications services shall be carried out in accordance with Union data protection law and Union privacy law, in particular Directive 2002/58/EC.</li>
 </ol>
 
-
 ### Article 3 — Essential and important entities {#art-3}
 
 <ol>
@@ -75,7 +80,7 @@ This page provides a MkDocs-friendly version of the NIS 2 Directive with stable 
       <li id="art-3-1-b">qualified trust service providers and top-level domain name registries as well as DNS service providers, regardless of their size;</li>
       <li id="art-3-1-c">providers of public electronic communications networks or of publicly available electronic communications services which qualify as medium-sized enterprises under Article 2 of the Annex to Recommendation 2003/361/EC;</li>
       <li id="art-3-1-d">public administration entities referred to in Article 2(2), point (f)(i);</li>
-      <li id="art-3-1-e">any other entities of a type referred to in Annex I or II that are identified by a Member State as essential entities pursuant to Article 2(2), points (b) to (e);</li>
+      <li id="art-3-1-e">any other entities of a type referred to in Annex I or II that are identified by a Member State as essential entities pursuant to <a href="#art-2-2">Article 2(2)</a>, points (b) to (e);</li>
       <li id="art-3-1-f">entities identified as critical entities under Directive (EU) 2022/2557, referred to in Article 2(3) of this Directive;</li>
       <li id="art-3-1-g">if the Member State so provides, entities which that Member State identified before 16 January 2023 as operators of essential services in accordance with Directive (EU) 2016/1148 or national law.</li>
     </ol>
@@ -633,3 +638,154 @@ This page provides a MkDocs-friendly version of the NIS 2 Directive with stable 
   <li id="art-27-5">Where applicable, the information referred to in paragraphs 2 and 3 shall be submitted through the national mechanism referred to in Article 3(4), fourth subparagraph.</li>
 </ol>
 
+### Article 28 — Database of domain name registration data {#art-28}
+
+<ol>
+  <li id="art-28-1">For the purpose of contributing to the security, stability and resilience of the DNS, Member States shall require TLD name registries and entities providing domain name registration services to collect and maintain accurate and complete domain name registration data in a dedicated database with due diligence in accordance with Union data protection law as regards data which are personal data.</li>
+  <li id="art-28-2">
+    For the purposes of paragraph 1, Member States shall require the database of domain name registration data to contain the necessary information to identify and contact the holders of the domain names and the points of contact administering the domain names under the TLDs. Such information shall include:
+    <ol type="a">
+      <li id="art-28-2-a">the domain name;</li>
+      <li id="art-28-2-b">the date of registration;</li>
+      <li id="art-28-2-c">the registrant’s name, contact email address and telephone number;</li>
+      <li id="art-28-2-d">the contact email address and telephone number of the point of contact administering the domain name in the event that they are different from those of the registrant.</li>
+    </ol>
+  </li>
+  <li id="art-28-3">Member States shall require the TLD name registries and the entities providing domain name registration services to have policies and procedures, including verification procedures, in place to ensure that the databases referred to in paragraph 1 include accurate and complete information. Member States shall require such policies and procedures to be made publicly available.</li>
+  <li id="art-28-4">Member States shall require the TLD name registries and the entities providing domain name registration services to make publicly available, without undue delay after the registration of a domain name, the domain name registration data which are not personal data.</li>
+  <li id="art-28-5">Member States shall require the TLD name registries and the entities providing domain name registration services to provide access to specific domain name registration data upon lawful and duly substantiated requests by legitimate access seekers, in accordance with Union data protection law. Member States shall require the TLD name registries and the entities providing domain name registration services to reply without undue delay and in any event within 72 hours of receipt of any requests for access. Member States shall require policies and procedures with regard to the disclosure of such data to be made publicly available.</li>
+  <li id="art-28-6">Compliance with the obligations laid down in paragraphs 1 to 5 shall not result in a duplication of collecting domain name registration data. To that end, Member States shall require TLD name registries and entities providing domain name registration services to cooperate with each other.</li>
+</ol>
+
+## Chapter VI — Information sharing {#chapter-vi}
+
+### Article 29 — Cybersecurity information-sharing arrangements {#art-29}
+
+<ol>
+  <li id="art-29-1">
+    Member States shall ensure that entities falling within the scope of this Directive and, where relevant, other entities not falling within the scope of this Directive are able to exchange on a voluntary basis relevant cybersecurity information among themselves, including information relating to cyber threats, near misses, vulnerabilities, techniques and procedures, indicators of compromise, adversarial tactics, threat-actor-specific information, cybersecurity alerts and recommendations regarding configuration of cybersecurity tools to detect cyberattacks, where such information sharing:
+    <ol type="a">
+      <li id="art-29-1-a">aims to prevent, detect, respond to or recover from incidents or to mitigate their impact;</li>
+      <li id="art-29-1-b">enhances the level of cybersecurity, in particular through raising awareness in relation to cyber threats, limiting or impeding the ability of such threats to spread, supporting a range of defensive capabilities, vulnerability remediation and disclosure, threat detection, containment and prevention techniques, mitigation strategies, or response and recovery stages or promoting collaborative cyber threat research between public and private entities.</li>
+    </ol>
+  </li>
+  <li id="art-29-2">Member States shall ensure that the exchange of information takes place within communities of essential and important entities, and where relevant, their suppliers or service providers. Such exchange shall be implemented through cybersecurity information-sharing arrangements in respect of the potentially sensitive nature of the information shared.</li>
+  <li id="art-29-3">Member States shall facilitate the establishment of cybersecurity information-sharing arrangements referred to in paragraph 2 of this Article. Such arrangements may specify operational elements, including the use of dedicated ICT platforms and automation tools, content and conditions of the information-sharing arrangements. In laying down the details of the involvement of public authorities in such arrangements, Member States may impose conditions on the information made available by the competent authorities or the CSIRTs. Member States shall offer assistance for the application of such arrangements in accordance with their policies referred to in Article 7(2), point (h).</li>
+  <li id="art-29-4">Member States shall ensure that essential and important entities notify the competent authorities of their participation in the cybersecurity information-sharing arrangements referred to in paragraph 2, upon entering into such arrangements, or, as applicable, of their withdrawal from such arrangements, once the withdrawal takes effect.</li>
+  <li id="art-29-5">ENISA shall provide assistance for the establishment of cybersecurity information-sharing arrangements referred to in paragraph 2 by exchanging best practices and providing guidance.</li>
+</ol>
+
+### Article 30 — Voluntary notification of relevant information {#art-30}
+
+<ol>
+  <li id="art-30-1">
+    Member States shall ensure that, in addition to the notification obligation provided for in Article 23, notifications can be submitted to the CSIRTs or, where applicable, the competent authorities, on a voluntary basis, by:
+    <ol type="a">
+      <li id="art-30-1-a">essential and important entities with regard to incidents, cyber threats and near misses;</li>
+      <li id="art-30-1-b">entities other than those referred to in point (a), regardless of whether they fall within the scope of this Directive, with regard to significant incidents, cyber threats and near misses.</li>
+    </ol>
+  </li>
+  <li id="art-30-2">Member States shall process the notifications referred to in paragraph 1 of this Article in accordance with the procedure laid down in Article 23. Member States may prioritise the processing of mandatory notifications over voluntary notifications.</li>
+</ol>
+
+## Chapter VII — Supervision and enforcement {#chapter-vii}
+
+### Article 31 — General aspects concerning supervision and enforcement {#art-31}
+
+<ol>
+  <li id="art-31-1">
+    Member States shall ensure that their competent authorities effectively supervise and take the measures necessary to ensure compliance with this Directive.
+  </li>
+  <li id="art-31-2">
+    Member States may allow their competent authorities to prioritise supervisory tasks. Such prioritisation shall be based on a risk-based approach. To that end, when exercising their supervisory tasks provided for in Articles 32 and 33, the competent authorities may establish supervisory methodologies allowing for a prioritisation of such tasks following a risk-based approach.
+  </li>
+  <li id="art-31-3">
+    The competent authorities shall work in close cooperation with supervisory authorities under Regulation (EU) 2016/679 when addressing incidents resulting in personal data breaches, without prejudice to the competence and tasks of the supervisory authorities under that Regulation.
+  </li>
+  <li id="art-31-4">
+    Without prejudice to national legislative and institutional frameworks, Member States shall ensure that, in the supervision of compliance of public administration entities with this Directive and the imposition of enforcement measures with regard to infringements of this Directive, the competent authorities have appropriate powers to carry out such tasks with operational independence vis-à-vis the public administration entities supervised. Member States may decide on the imposition of appropriate, proportionate and effective supervisory and enforcement measures in relation to those entities in accordance with the national legislative and institutional frameworks.
+  </li>
+</ol>
+
+### Article 32 — Supervisory and enforcement measures in relation to essential entities {#art-32}
+
+<ol>
+  <li id="art-32-1">
+    Member States shall ensure that the supervisory or enforcement measures imposed on essential entities in respect of the obligations laid down in this Directive are effective, proportionate and dissuasive, taking into account the circumstances of each individual case.
+  </li>
+  <li id="art-32-2">
+    Member States shall ensure that the competent authorities, when exercising their supervisory tasks in relation to essential entities, have the power to subject those entities at least to:
+    <ol type="a">
+      <li id="art-32-2-a">on-site inspections and off-site supervision, including random checks conducted by trained professionals;</li>
+      <li id="art-32-2-b">regular and targeted security audits carried out by an independent body or a competent authority;</li>
+      <li id="art-32-2-c">ad hoc audits, including where justified on the ground of a significant incident or an infringement of this Directive by the essential entity;</li>
+      <li id="art-32-2-d">security scans based on objective, non-discriminatory, fair and transparent risk assessment criteria, where necessary with the cooperation of the entity concerned;</li>
+      <li id="art-32-2-e">requests for information necessary to assess the cybersecurity risk-management measures adopted by the entity concerned, including documented cybersecurity policies, as well as compliance with the obligation to submit information to the competent authorities pursuant to Article 27;</li>
+      <li id="art-32-2-f">requests to access data, documents and information necessary to carry out their supervisory tasks;</li>
+      <li id="art-32-2-g">requests for evidence of implementation of cybersecurity policies, such as the results of security audits carried out by a qualified auditor and the respective underlying evidence.</li>
+    </ol>
+  </li>
+  <li id="art-32-3">
+    The targeted security audits referred to in the first subparagraph, point (b), shall be based on risk assessments conducted by the competent authority or the audited entity, or on other risk-related available information.
+  </li>
+  <li id="art-32-4">
+    The results of any targeted security audit shall be made available to the competent authority. The costs of such targeted security audit carried out by an independent body shall be paid by the audited entity, except in duly substantiated cases when the competent authority decides otherwise.
+  </li>
+  <li id="art-32-5">
+    When exercising their powers under paragraph 2, point (e), (f) or (g), the competent authorities shall state the purpose of the request and specify the information requested.
+  </li>
+  <li id="art-32-6">
+    Member States shall ensure that their competent authorities, when exercising their enforcement powers in relation to essential entities, have the power at least to:
+    <ol type="a">
+      <li id="art-32-6-a">issue warnings about infringements of this Directive by the entities concerned;</li>
+      <li id="art-32-6-b">adopt binding instructions, including with regard to measures necessary to prevent or remedy an incident, as well as time-limits for the implementation of such measures and for reporting on their implementation, or an order requiring the entities concerned to remedy the deficiencies identified or the infringements of this Directive;</li>
+      <li id="art-32-6-c">order the entities concerned to cease conduct that infringes this Directive and desist from repeating that conduct;</li>
+      <li id="art-32-6-d">order the entities concerned to ensure that their cybersecurity risk-management measures comply with Article 21 or to fulfil the reporting obligations laid down in Article 23, in a specified manner and within a specified period;</li>
+      <li id="art-32-6-e">order the entities concerned to inform the natural or legal persons with regard to which they provide services or carry out activities which are potentially affected by a significant cyber threat of the nature of the threat, as well as of any possible protective or remedial measures which can be taken by those natural or legal persons in response to that threat;</li>
+      <li id="art-32-6-f">order the entities concerned to implement the recommendations provided as a result of a security audit within a reasonable deadline;</li>
+      <li id="art-32-6-g">designate a monitoring officer with well-defined tasks for a determined period of time to oversee the compliance of the entities concerned with Articles 21 and 23;</li>
+      <li id="art-32-6-h">order the entities concerned to make public aspects of infringements of this Directive in a specified manner;</li>
+      <li id="art-32-6-i">impose, or request the imposition by the relevant bodies, courts or tribunals, in accordance with national law, of an administrative fine pursuant to Article 34 in addition to any of the measures referred to in points (a) to (h) of this paragraph.</li>
+    </ol>
+  </li>
+  <li id="art-32-7">
+    Where enforcement measures adopted pursuant to paragraph 4, points (a) to (d) and (f), are ineffective, Member States shall ensure that their competent authorities have the power to establish a deadline by which the essential entity is requested to take the necessary action to remedy the deficiencies or to comply with the requirements of those authorities. If the requested action is not taken within the deadline set, Member States shall ensure that their competent authorities have the power to:
+    <ol type="a">
+      <li id="art-32-7-a">suspend temporarily, or request a certification or authorisation body, or a court or tribunal, in accordance with national law, to suspend temporarily a certification or authorisation concerning part or all of the relevant services provided or activities carried out by the essential entity;</li>
+      <li id="art-32-7-b">request that the relevant bodies, courts or tribunals, in accordance with national law, prohibit temporarily any natural person who is responsible for discharging managerial responsibilities at chief executive officer or legal representative level in the essential entity from exercising managerial functions in that entity.</li>
+    </ol>
+  </li>
+  <li id="art-32-8">
+    Temporary suspensions or prohibitions imposed pursuant to this paragraph shall be applied only until the entity concerned takes the necessary action to remedy the deficiencies or comply with the requirements of the competent authority for which such enforcement measures were applied. The imposition of such temporary suspensions or prohibitions shall be subject to appropriate procedural safeguards in accordance with the general principles of Union law and the Charter, including the right to an effective remedy and to a fair trial, the presumption of innocence and the rights of the defence.
+  </li>
+  <li id="art-32-9">
+    The enforcement measures provided for in this paragraph shall not be applicable to public administration entities that are subject to this Directive.
+  </li>
+  <li id="art-32-10">
+    Member States shall ensure that any natural person responsible for or acting as a legal representative of an essential entity on the basis of the power to represent it, the authority to take decisions on its behalf or the authority to exercise control of it has the power to ensure its compliance with this Directive. Member States shall ensure that it is possible to hold such natural persons liable for breach of their duties to ensure compliance with this Directive.
+  </li>
+  <li id="art-32-11">
+    As regards public administration entities, this paragraph shall be without prejudice to national law as regards the liability of public servants and elected or appointed officials.
+  </li>
+  <li id="art-32-12">
+    When taking any of the enforcement measures referred to in paragraph 4 or 5, the competent authorities shall comply with the rights of the defence and take account of the circumstances of each individual case and, as a minimum, take due account of:
+    <ol type="a">
+      <li id="art-32-12-a">the seriousness of the infringement and the importance of the provisions breached, the following, inter alia, constituting serious infringement in any event:
+        <ol type="i">
+          <li id="art-32-12-a-i">repeated violations;</li>
+          <li id="art-32-12-a-ii">a failure to notify or remedy significant incidents;</li>
+          <li id="art-32-12-a-iii">a failure to remedy deficiencies following binding instructions from competent authorities;</li>
+          <li id="art-32-12-a-iv">the obstruction of audits or monitoring activities ordered by the competent authority following the finding of an infringement;</li>
+          <li id="art-32-12-a-v">providing false or grossly inaccurate information in relation to cybersecurity risk-management measures or reporting obligations laid down in Articles 21 and 23;</li>
+        </ol>
+      </li>
+      <li id="art-32-12-b">the duration of the infringement;</li>
+      <li id="art-32-12-c">any relevant previous infringements by the entity concerned;</li>
+      <li id="art-32-12-d">any material or non-material damage caused, including any financial or economic loss, effects on other services and the number of users affected;</li>
+      <li id="art-32-12-e">any intent or negligence on the part of the perpetrator of the infringement;</li>
+      <li id="art-32-12-f">any measures taken by the entity to prevent or mitigate the material or non-material damage;</li>
+      <li id="art-32-12-g">any adherence to approved codes of conduct or approved certification mechanisms;</li>
+      <li id="art-32-12-h">any other aggravating or mitigating factor applicable to the circumstances of the case.</li>
+    </ol>
+  </li>
+</ol>
