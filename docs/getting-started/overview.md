@@ -1,4 +1,4 @@
-# WINGMAN Overview
+# WINGMAN Technology Overview
 
 ## Core Philosophy
 
@@ -29,6 +29,11 @@ WINGMAN enhances human decision-making rather than replacing it:
 - **Human Oversight**: Critical decisions remain with security professionals
 - **Continuous Learning**: Improves based on user feedback and actions
 - **Expertise Amplification**: Makes security expertise more effective
+
+
+
+
+
 
 ## Architecture Overview
 

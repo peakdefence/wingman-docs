@@ -8,7 +8,23 @@ Meanwhile, the SIEM is generating alerts about something that's probably nothing
 
 This scenario plays out in organizations worldwide, with security professionals clutching their coffee while wondering how something as straightforward as "keeping things secure" became quite so wonderfully chaotic.
 
+### The Three Uncomfortable Truths About Cybersecurity
+Before we begin this journey together, let's establish some ground rules that your consultant probably won't tell you:
+
+- **Truth #1**: Your Current Security Documentation is Fiction:
+> Most organizations have security policies that read like aspirational poetry - beautiful in theory, completely divorced from reality. WINGMAN's first job is to help you create documentation that reflects what you actually do, not what you tell auditors you do after a particularly good lunch.
+
+- **Truth #2**: Generic Templates are Security Theatre:
+> That ISO 27001 template you downloaded? About as useful as a chocolate firewall. WINGMAN builds context-specific security that actually fits your organization, like a bespoke suit rather than something grabbed off the rack at Security Templates R Us.
+
+- **Truth #3**: You Can't Manage What You Don't Understand:
+> Most security tools assume you have a PhD in acronyms and infinite time. WINGMAN assumes you're human, overwhelmed, and would rather be doing literally anything else. We'll get you from "what's an asset?" to "mature security posture" without the usual descent into madness.
+
 Enter WINGMAN: the AI-driven virtual security office assistant that addresses these exact challenges.
+
+## WINGMAN Overview Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uFT1O56Nwk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## What Makes WINGMAN Different from Traditional Approaches
 
@@ -53,6 +69,7 @@ The key differentiator: WINGMAN doesn't just store this information like a digit
 Teams often struggle to explain why a "low priority" vulnerability suddenly became urgent, or which of 847 security tasks should receive immediate attention.
 
 WINGMAN addresses this by:
+
 - **Prioritizing intelligently**: Considering actual relationships and impact rather than arbitrary severity scores
 - **Providing context**: When incidents occur, showing what else might be affected
 - **Suggesting actions**: Based on the organization's specific situation rather than generic internet advice
@@ -141,10 +158,13 @@ To set proper expectations, it's important to understand what WINGMAN is not:
 
 ## Getting Started
 
-Ready to begin? Check out our [Quick Start Guide](quick-start.md) to get WINGMAN up and running in your environment.
+Ready to begin? Move to the [1st step of our implementation guidance](1st-step.md)
+
+You can also check out [Quick Start Guide](quick-start.md) to get WINGMAN up and running in your environment.
 
 ## Next Steps
 
+- [1st implementation step](1st-step.md)
 - [Quick Start Guide](quick-start.md)
 - [WINGMAN Overview](overview.md)
 - [Core Concepts on how Graph database is used](../core-concepts/graph-database.md)

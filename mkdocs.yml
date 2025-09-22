@@ -112,8 +112,9 @@ nav:
   - Home: index.md
   - Getting Started:
     - Welcome: getting-started/welcome.md
+    - 1st step (Context creation): getting-started/1st-step.md
     - Quick Start Guide: getting-started/quick-start.md
-    - WINGMAN Overview: getting-started/overview.md
+    - WINGMAN Technology Overview: getting-started/overview.md
   - Core Concepts:
     - Core concepts: core-concepts/core-concepts-wingman.md
     - Graph Database Model: core-concepts/graph-database.md
