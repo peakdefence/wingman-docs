@@ -51,7 +51,7 @@ WINGMAN approaches this differently. Instead of starting with technology (boring
 
 ## Core Implementation Sections
 
-### 3.a: Asset Management Setup
+### Asset Management Setup
 
 #### Step-by-Step Guide
 
@@ -126,7 +126,7 @@ Most organizations fail at asset discovery because they start with IT infrastruc
        - Credit Check Service (Experian)
    ```
 
-### 3.a.i: Asset Discovery Methods
+### Asset Discovery Methods
 
 #### The Multi-Pronged Approach (Because One Method Never Works)
 
@@ -159,7 +159,7 @@ budget_lines.filter(type='Technology')
   → Finds planned assets
 ```
 
-**3. The Human Intelligence Method (Ask People)**
+**The Human Intelligence Method (Ask People)**
 
 ```yaml
 Survey Questions That Actually Work:
@@ -169,7 +169,7 @@ Survey Questions That Actually Work:
   - "Which vendor would cause panic if they disappeared?"
 ```
 
-### 3.a.ii: Product/Service-Based Mapping
+### Product/Service-Based Mapping
 
 #### The Revolutionary Approach That Actually Makes Sense
 
@@ -178,6 +178,8 @@ Instead of asking "What servers do we have?" (IT perspective), ask "What makes o
 **Step-by-Step Implementation:**
 
 1. **Create Product Architecture Diagrams** (2 hours per product)
+
+Main thing - keep these short and do go in too many details (if possible)
    ```mermaid
    graph TD
      A[Mobile App] --> B[API Gateway]
@@ -224,7 +226,7 @@ Product: Online Shopping Platform
     - Bob's Excel Macro ← Pricing updates (seriously)
 ```
 
-### 3.a.iii: Information Classification and "What is Stored Where"
+### Information Classification and "What is Stored Where"
 
 #### The GDPR Anxiety Section
 
@@ -303,7 +305,7 @@ WINGMAN's automated scanning + manual verification:
      - That USB drive in drawer with "Important" label
    ```
 
-### 3.a.iv: Supplier & Solution Registry / Supply Chain Building
+### Supplier & Solution Registry / Supply Chain Building
 
 #### Mapping the Vendor Maze of Doom
 
@@ -446,8 +448,8 @@ Your Vendor: Payment Processor
    ```yaml
    Good: PRD-AWS-API-PAYMENT-01
    Bad: Server1
-   Terrible: Bob's Box
-   Reality: Mixture of all three
+   Terrible: Bob's Box 
+   Reality: Mixture of all three (PRD-AWS-API-PAYMENT-01, Server1, Bob's box which ensures the payment data in the process of paying for the service actually is forwarded to the payment processor) - having proper name and really good description would be perfect
    ```
 
 ---
