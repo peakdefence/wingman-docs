@@ -16,12 +16,13 @@ This phase isn't just about making lists. It's about understanding the terrifyin
 **Time Required:** 3 days (if you're organized), 5 days (reality), 2 weeks (if you include crying time)
 
 By the end of this phase, you'll have:
-- A complete asset inventory (including the shadows IT forgot about)
-- Supply chain visibility (prepare for vendor-induced anxiety)
-- Information classification that actually makes sense
-- A clear picture of what's stored where (spoiler: personal data is everywhere)
-- Supplier dependency mapping (the "single points of failure" horror show)
-- An understanding of why your attack surface is larger than France
+
+- A complete **asset inventory**
+- **Supply chain** visibility 
+- **Information structure** in the assets
+- A clear picture of what's stored where (focusing on sensitive and personal data)
+- A starting step to ensure the **access controls** are implemented correctly
+
 
 ---
 

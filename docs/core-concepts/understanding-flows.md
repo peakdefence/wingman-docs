@@ -6,13 +6,38 @@ This guide introduces the concept of flows in WINGMAN and how they can be used t
 
 Flows are automated workflows that connect different parts of the WINGMAN platform to streamline security operations. They allow you to define a series of steps that execute automatically based on triggers or schedules.
 
+## Available automations
+
+| Automation description | Automation implementation method | Available through frontend | Available through backend |
+| --- | --- | --- | --- |
+| Work with Risk registry | Interface to work with relevant node | Yes | No |
+| Work with Asset registry | Interface to work with relevant node | Yes | No |
+| Work with Incident registry | Interface to work with relevant node | Yes | No |
+| Work with Vulnerability registry | Interface to work with relevant node | Yes | No |
+| Work with information security relevant tasks | Interface to work with relevant node | Yes | No |
+| Generation of company context to be used in WINGMAN | Prompted chat with web search | No | Yes |
+| Vulnerability processing flow to automate processing of vulnerabilities received from different sources or entered manually, includes linking vulnerabilities to assets, de-duplication of vulnerabilities, prioritization of work | Flow | Yes* | No |
+| Document generation from templates within company context | BO implementation function | No | Yes |
+| Obtaining information from documentation through natural language interface| Chat | Yes | No |
+| Risk reviews - regular and initial. Improves risk description, finds missing controls, finds missing assets, finds missing vulnerabilities | Time/Manually triggered Flow | Yes* | No |
+| Regular asset reviews - provides information collection about the asset and guides user as to how to review the asset | Time/Manually triggered flow | No | Yes |
+| Regular access reviews - provides information collection about the access and guides user as to how to review the access | Time/Manually triggered flow | No | Yes |
+| Vendor/Supplier initial and regular reviews. Finds information about supplier and creates a review summary for a person to look into | Time/Manually triggered flow | No | Yes |
+| Incident processing workflow including incident classification to determine reporting needs and similar issues | Prompted chat | No | No |
+| Populating controls list from requirements | BO implementation function | No | Yes |
+| Adding regulatory and standard requirements | BO implementation function | No | Yes |
+| Automated stage 1 audit (auditing documentation for compliance with selected requirements) | BO implementation function | No | Yes |
+| Automated stage 2 audit (auditing interviews and notes )| BO implementation function | No | No |
+
+
+
 ## Key Concepts
 
 ### 1. Triggers
 
 Events that start a flow:
-- New vulnerability detected
-- Asset status change
+- New <node> detected
+- <node> status change
 - Scheduled time
 - Manual execution
 - External webhook

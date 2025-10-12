@@ -23,15 +23,15 @@ Here's the thing: Most risk registers are where good intentions go to die. They'
 Your risk register should be your organization's anxiety list—a living document of what keeps you up at night, who's responsible for not letting it happen, and what you're actually doing about it. If your risks are so generic they could apply to any company from Tesla to your local fish and chips shop, you're doing it wrong.
 
 **What You'll Actually Achieve:**
-- A risk register that predicts real incidents (revolutionary, I know)
+- A risk register that prevents (predicts) real incidents (revolutionary, I know)
 - Clear ownership by people who actually understand their risks
-- Dynamic connections between risks, assets, and incidents
+- Dynamic relationships established between risks, assets, and incidents
 - The ability to answer "What's our biggest security risk?" without crying
 
 **Time Required:** 
 - 3-5 days (if starting fresh)
-- 2-3 days (if importing existing register)
-- 6 months (if you're trying to get everyone to agree on what "critical" means)
+- 1-2 days (if importing existing register)
+- 6 months (if you're trying to get everyone to agree on what "critical" means and avoid using WINGMAN AI help)
 
 ---
 
@@ -47,7 +47,7 @@ Signs this is you:
 - Risk owners include people who left the company in 2019
 - Nobody can remember what "RR-2021-047" actually means
 
-**Your Path:** Import, cry a little, then rebuild with actual intelligence
+**Your Path:** We would suggest rebuild with actual intelligence
 
 **Scenario B: "We're Starting Fresh" (Translation: At least we're honest)**
 
@@ -55,6 +55,7 @@ Signs this is you:
 - You've been managing risk through prayer and crossed fingers
 - Your idea of risk assessment is "that looks scary"
 - You're ready to do this properly from the start
+- Every time you are asked about the most important risks, your answer differs depending on what was the last thing you read in Medium / watched on Youtube
 
 **Your Path:** Build it right the first time, using WINGMAN's brain instead of generic templates
 
@@ -125,8 +126,8 @@ Before you create a single risk, understand what makes a good one versus somethi
 
 1. **Start with Asset-Based Discovery**
    ```
-   WINGMAN > Risk Management > AI Risk Discovery
-   Select Assets > Generate Risks
+   WINGMAN > Assets
+   WINGMAN > Chat > Ask for most relevant risks for your organization (the answer will be given in context + using the information about requirements and assets)
    ```
 
 2. **Review AI-Suggested Risks**
