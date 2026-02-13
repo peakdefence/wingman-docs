@@ -220,5 +220,4 @@ Example cron job:
 
 ## Next Steps
 
-- [Data Model](../core-concepts/graph-database.md)
 - [Getting Started](../getting-started/quick-start.md)

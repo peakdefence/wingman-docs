@@ -169,4 +169,4 @@ You can also check out [Quick Start Guide](quick-start.md) to get WINGMAN up and
 - [1st implementation step](1st-step.md)
 - [Quick Start Guide](quick-start.md)
 - [WINGMAN Overview](overview.md)
-- [Core Concepts on how Graph database is used](../core-concepts/graph-database.md)
+

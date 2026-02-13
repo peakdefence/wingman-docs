@@ -138,6 +138,4 @@ graph TD
 
 ## Next Steps
 
-- [Explore Core Concepts](../core-concepts/graph-database.md)
-- [Learn about Node Types](../core-concepts/node-types.md)
 - [Set Up Your First Integration](../integrations/overview.md)
